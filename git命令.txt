@@ -57,3 +57,23 @@ git branch -D dev
 5.删除远程分支
 git push origin -d dev
 
+/**
+*
+*把主分支代码更新到其他分支流程
+*/
+1.首先看自己分支是否有要提交的文件
+git status
+
+2.如果有先把要提交的文件提交上分支上；如果没有就切换分支
+git checkout master
+
+3.拉取主分支上的代码
+git pull
+
+4.切回到原来分支
+git checkout dev
+
+5.合并master分支
+git merge master
+
+
