@@ -28,7 +28,7 @@ git push origin master  #---把文件推送到远程分支master
 *git 提交代码流程
 *
 */
-
+1111
 1.git status #查看文件状态:使用此命令能看到那些修改被暂存到了, 哪些没有, 哪些文件没有被Git tracked到。
 				git status不显示已经commit到项目历史中去的信息。看项目历史的信息要使用git log
 				
