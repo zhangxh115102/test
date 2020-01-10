@@ -93,3 +93,19 @@ git merge dev
 git push origin master
 
 
+/**
+*git 回退到某个版本
+*/
+
+1.列出所有的提交日志<id>
+git log --pretty=omeline
+
+2。复制要回退版本的日志id
+git reset --hard<id>
+
+3.强制提交一下代码
+git push -f -u origin master
+
+4.更新一下本地仓库
+git pull
+
