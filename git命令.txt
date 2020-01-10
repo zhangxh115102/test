@@ -76,4 +76,16 @@ git checkout dev
 5.合并master分支
 git merge master
 
+/**
+* 把其他分支代码合并到主分支上
+*/
+1.切换分支到主分支上
+git checkout master
+
+2.和分支
+git merge dev
+
+3.push到主分支上
+git push origin master
+
 
